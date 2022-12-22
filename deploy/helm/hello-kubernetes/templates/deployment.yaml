@@ -36,9 +36,9 @@ spec:
           - name: PORT
             value: "{{ .Values.deployment.container.port }}"
           {{- end }}
-          {{- if .Values.message }}
+          {{- if .Values.message2 }}
           - name: MESSAGE
-            value: "{{ .Values.message }}"
+            value: "{{ .Values.message2 }}"
           {{- end }}
           {{- if .Values.ingress.configured }}
           - name: HANDLER_PATH_PREFIX
