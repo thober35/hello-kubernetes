@@ -9,6 +9,7 @@ ingress:
   pathPrefix: ""
 
 service:
+  enabled: false
   type: LoadBalancer
   port: 80
 
