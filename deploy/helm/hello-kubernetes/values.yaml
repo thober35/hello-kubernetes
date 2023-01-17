@@ -9,8 +9,9 @@ ingress:
   pathPrefix: ""
 
 service:
-  enabled: false
-  type: LoadBalancer
+  enabled: true
+  #type: LoadBalancer
+  type: ClusterIP
   port: 80
 
 deployment:
