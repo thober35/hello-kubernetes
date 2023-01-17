@@ -9,7 +9,7 @@ ingress:
   pathPrefix: ""
 
 service:
-  enabled: true
+  enabled: false
   #type: LoadBalancer
   type: ClusterIP
   port: 80
