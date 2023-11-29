@@ -1,6 +1,6 @@
 # Provide a custom message
 message: ""
-message2: "24" #change
+message2: "25" #change
 
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
